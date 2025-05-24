@@ -1,0 +1,10 @@
+body {
+    display: flex;
+}
+a {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin: 10px;
+}
