@@ -1,5 +1,6 @@
 const webLinks = [
     {link: "https://www.google.com/", icon: "https://www.google.com/favicon.ico"},
+    {link: "https://www.youtube.com/", icon: "https://www.youtube.com/favicon.ico"},   
     {link: "https://www.ozbargain.com.au/", icon: "https://www.ozbargain.com.au/favicon.ico"},
     {link: "https://www.afr.com/", icon: "https://www.afr.com/favicon.ico"},
     {link: "https://www.smh.com.au/", icon: "https://www.smh.com.au/favicons/smh.ico"},
