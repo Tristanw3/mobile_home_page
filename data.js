@@ -6,7 +6,7 @@ const webLinks = [
     {link: "https://www.smh.com.au/", icon: "https://www.smh.com.au/favicons/smh.ico"},
     {link: "https://paycalculator.com.au/", icon: "https://paycalculator.com.au/favicon.ico"},
     {link: "https://iworkfor.nsw.gov.au/", icon: "https://iworkfor.nsw.gov.au/favicon.ico"},
-    {link: "https://www.removepaywall.com/", icon: "https://www.removepaywall.com/faviFold/favicon-32x32.png"},
+    {link: "https://www.removepaywall.com/", icon: "./icons/wall.png"},
     {link: "https://www.abc.net.au/news", icon: "https://www.abc.net.au/news-assets/favicon-32x32.png"},
     {link: "https://my.smata.com/login", icon: "https://static.wixstatic.com/media/c4412c_d2f39fc981a54810a2f5e5a7d8b91211~mv2.png/v1/fill/w_169,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202020-08-06%20at%201_29_43%20pm.png"},
     {link: "https://www.jbhifi.com.au/", icon: "./icons/jbhifi-128.png"},
