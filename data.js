@@ -36,6 +36,13 @@ function main(linkData) {
             bodyElement.append(aElement)    
         }
     }
+    const button = document.getElementsByTagName('button')[0];
+
+    button.addEventListener('click', function(event) {
+        const input = document.getElementsByTagName('input')[0];
+        const bypass = 'https://www.removepaywall.com/search?url='
+        window.location.href = bypass + input.value;
+    });
 };
 
 main(webLinks);
