@@ -1,4 +1,4 @@
-const webLinks = [
+const homePages = [
     {link: "https://www.google.com/", icon: "./icons/google-128.png"},
     {link: "https://www.youtube.com/", icon: "./icons/youtube-144.png"},
     {link: "https://www.ozbargain.com.au/", icon: "./icons/ozbargain-128.png"},
@@ -14,12 +14,51 @@ const webLinks = [
     {link: "https://au.camelcamelcamel.com/", icon: "https://assets.camelcamelcamel.com/live-assets/camelcamelcamel-logo-2018-583259dd2c1880ff44d801e313ca1d885d2ea345690072a457c5af98b5ca513f.png"},
     {link: "https://www.itnews.com.au/", icon: "./icons/it-news.png"},
     {link: "https://www.theguardian.com/au", icon: "./icons/guardian-128.png"},
-    {link: "https://www.economist.com/", icon: "./icons/the-economist.png"}
+    {link: "https://www.economist.com/", icon: "./icons/the-economist.png"},
+    {link: "./rates.html", icon: "./icons/folder.png"}
 ];
 
-function main(linkData) {
+const ratesPages = [
+    {
+        name: 'CPI Quaterley',
+        link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release", 
+        icon: "./icons/abs.png"
+    },
+    {
+        name: 'CPI Monthly',
+        link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/latest-release", 
+        icon: "./icons/abs.png"
+    },
+    {
+        name: 'Unemployment Monthly',
+        link: "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release", 
+        icon: "./icons/abs.png"
+    },
+    {
+        name: 'WPI Quaterley',
+        link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release", 
+        icon: "./icons/abs.png"
+    },
+    {
+        name: 'ASX Rate Tracker',
+        link: "https://www.asx.com.au/markets/trade-our-derivatives-market/futures-market/rba-rate-tracker.html", 
+        icon: "./icons/asx.png"
+    }
+
+    
+];
+
+
+function main() {
     const bodyElement = document.getElementsByTagName('body')[0];
     
+    var webLinks = [];
+    if (document.title === 'home') {
+        webLinks = homePages;
+    } else if (document.title === 'rates') {
+        webLinks = ratesPages;
+    } 
+
     for (let index = 0; index < webLinks.length; index++) {
         const webLink = webLinks[index];
         if (typeof webLink === 'string') {
@@ -36,13 +75,16 @@ function main(linkData) {
             bodyElement.append(aElement)    
         }
     }
-    const button = document.getElementsByTagName('button')[0];
 
-    button.addEventListener('click', function(event) {
-        const input = document.getElementsByTagName('input')[0];
-        const bypass = 'https://www.removepaywall.com/search?url='
-        window.location.href = bypass + input.value;
-    });
+    if(document.title === 'home') {
+        const button = document.getElementsByTagName('button')[0];
+    
+        button.addEventListener('click', function(event) {
+            const input = document.getElementsByTagName('input')[0];
+            const bypass = 'https://www.removepaywall.com/search?url='
+            window.location.href = bypass + input.value;
+        });
+    }
 };
 
-main(webLinks);
+main();
