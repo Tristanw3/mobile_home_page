@@ -20,6 +20,11 @@ const homePages = [
 
 const ratesPages = [
     {
+        name: 'Back',
+        link: "../", 
+        icon: "./icons/back.png"
+    },
+    {
         name: 'CPI Quaterley',
         link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release", 
         icon: "./icons/abs.png"
