@@ -48,6 +48,11 @@ const ratesPages = [
         name: 'ASX Rate Tracker',
         link: "https://www.asx.com.au/markets/trade-our-derivatives-market/futures-market/rba-rate-tracker.html", 
         icon: "./icons/asx.png"
+    },
+    {
+        name: 'RBA Meetings',
+        link: "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
+        icon: "./icons/rba-152.png"
     }
 
     
