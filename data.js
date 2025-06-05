@@ -72,7 +72,7 @@ const homePages = [
 const ratesPages = [
     {
         name: 'Back',
-        link: "../", 
+        link: "javascript:history.back()", 
         icon: "./icons/back.png"
     },
     {
