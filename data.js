@@ -107,6 +107,39 @@ const ratesPages = [
     }
 ];
 
+const pcPartsPage = [
+    {
+        name: "Back",
+        link: "javascript:history.back()", 
+        icon: "./icons/back.png"
+    },
+    {
+        name: "umart",
+        link: "https://www.umart.com.au/",
+        icon: ""
+    },
+    {
+        name: "scorptec",
+        link: "https://www.scorptec.com.au/",
+        icon: ""
+    },
+    {
+        name: "ple",
+        link: "https://www.ple.com.au/",
+        icon: ""
+    }, 
+    {
+        name: "mwave",
+        link: "https://www.mwave.com.au/",
+        icon: "./icons/mwave.ico"
+    }, 
+    {
+        name: "PCCaseGear",
+        link: "https://www.pccasegear.com/",
+        icon: "./icons/pccg.png"
+    }
+]
+
 
 function main() {
     const bodyElement = document.getElementsByTagName('body')[0];
