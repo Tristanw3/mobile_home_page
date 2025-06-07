@@ -66,6 +66,10 @@ const homePages = [
     {
         link: "./rates.html", 
         icon: "./icons/folder.png"
+    },
+    {
+        link: "./pcparts.html", 
+        icon: "./icons/folder.png"
     }
 ];
 
@@ -116,17 +120,17 @@ const pcPartsPage = [
     {
         name: "umart",
         link: "https://www.umart.com.au/",
-        icon: ""
+        icon: "./icons/umart.png"
     },
     {
         name: "scorptec",
         link: "https://www.scorptec.com.au/",
-        icon: ""
+        icon: "./icons/scorptec.png"
     },
     {
         name: "ple",
         link: "https://www.ple.com.au/",
-        icon: ""
+        icon: "./icons/ple.jpg"
     }, 
     {
         name: "mwave",
@@ -138,7 +142,7 @@ const pcPartsPage = [
         link: "https://www.pccasegear.com/",
         icon: "./icons/pccg.png"
     }
-]
+];
 
 
 function main() {
@@ -149,7 +153,9 @@ function main() {
         webLinks = homePages;
     } else if (document.title === 'rates') {
         webLinks = ratesPages;
-    } 
+    } else if (document.title === 'pcparts') {
+        webLinks = pcPartsPage;
+    }
 
     for (let index = 0; index < webLinks.length; index++) {
         const webLink = webLinks[index];
