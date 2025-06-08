@@ -169,20 +169,15 @@ function main() {
 
     for (let index = 0; index < webLinks.length; index++) {
         const webLink = webLinks[index];
-        if (typeof webLink === 'string') {
-            const aElement = document.createElement('a');
-            aElement.href = webLink;
-            bodyElement.append(aElement)
-        } else {
-            const aElement = document.createElement('a');
-            aElement.href = webLink['link'];
+        const aElement = document.createElement('a');
+        aElement.href = webLink['link'];
             
-            const imgElement = document.createElement('img');
-            imgElement.src = webLink['icon'];
-            aElement.append(imgElement);
-            bodyElement.append(aElement)   ; 
-        }
+        const imgElement = document.createElement('img');
+        imgElement.src = webLink['icon'];
+        aElement.append(imgElement);
+        bodyElement.append(aElement); 
     }
+    
 };
 
 main();
