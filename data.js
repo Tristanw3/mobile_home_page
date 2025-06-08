@@ -147,6 +147,10 @@ const pagesData = {
             icon: "./icons/back.png"
         },
         {
+            name: 'pc part picker',
+            link: 'https://au.pcpartpicker.com/list/'
+        },
+        {
             name: "umart",
             link: "https://www.umart.com.au/",
             icon: "./icons/umart.png"
