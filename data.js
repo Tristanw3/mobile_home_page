@@ -157,7 +157,7 @@ function main() {
         
         searchButton.addEventListener('click', function(event) {
             const input = document.getElementsByTagName('input')[0];
-            const bypass = 'https://www.removepaywall.com/search?url='
+            const bypass = 'https://www.removepaywall.com/search?url=';
             window.location.href = bypass + input.value;
         });
         
@@ -180,10 +180,9 @@ function main() {
             const imgElement = document.createElement('img');
             imgElement.src = webLink['icon'];
             aElement.append(imgElement);
-            bodyElement.append(aElement)    
+            bodyElement.append(aElement)   ; 
         }
     }
-    
 };
 
 main();
