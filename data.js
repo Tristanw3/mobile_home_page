@@ -16,7 +16,7 @@ const pagesData = {
             icon: "./icons/ozbargain-128.png"
         },
         {
-            name: 'financial review',
+            name: 'fin review',
             link: "https://www.afr.com/", 
             icon: "./icons/afr.png"
         },
@@ -93,44 +93,44 @@ const pagesData = {
     ],
     rates: [
         {
-            name: 'Back',
+            name: 'back',
             link: "javascript:history.back()", 
             icon: "./icons/back.png"
         },
         {
-            name: 'CPI Quaterley',
+            name: 'cpi quaterley',
             link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release", 
             icon: "./icons/abs.png"
         },
         {
-            name: 'CPI Monthly',
+            name: 'cpi monthly',
             link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/latest-release", 
             icon: "./icons/abs.png"
         },
         {
-            name: 'Unemployment Monthly',
+            name: 'unemployment monthly',
             link: "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release", 
             icon: "./icons/abs.png"
         },
         {
-            name: 'WPI Quaterley',
+            name: 'wpi quaterley',
             link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release", 
             icon: "./icons/abs.png"
         },
         {
-            name: 'ASX Rate Tracker',
+            name: 'asx rate tracker',
             link: "https://www.asx.com.au/markets/trade-our-derivatives-market/futures-market/rba-rate-tracker.html", 
             icon: "./icons/asx.png"
         },
         {
-            name: 'RBA Meetings',
+            name: 'rba meetings',
             link: "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
             icon: "./icons/rba-152.png"
         }
     ],
     pcParts: [
         {
-            name: "Back",
+            name: "back",
             link: "javascript:history.back()", 
             icon: "./icons/back.png"
         },
@@ -155,7 +155,7 @@ const pagesData = {
             icon: "./icons/mwave.ico"
         }, 
         {
-            name: "PCCaseGear",
+            name: "pc case gear",
             link: "https://www.pccasegear.com/",
             icon: "./icons/pccg.png"
         }
