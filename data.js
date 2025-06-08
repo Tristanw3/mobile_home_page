@@ -31,6 +31,10 @@ const pagesData = {
             icon: "https://paycalculator.com.au/favicon.ico"
         },
         {
+            name: 'cba loan calc',
+            link: 'https://www.commbank.com.au/digital/home-buying/calculator/home-loan-repayments'
+        },
+        {
             name: 'i work for nsw',
             link: "https://iworkfor.nsw.gov.au/", 
             icon: "https://iworkfor.nsw.gov.au/favicon.ico"
@@ -202,9 +206,13 @@ function main() {
 
         const aElement = document.createElement('a');
         aElement.href = webLink['link'];
-            
+        
         const imgElement = document.createElement('img');
-        imgElement.src = webLink['icon'];
+        if ('icon' in webLink) {
+            imgElement.src = webLink['icon'];
+        } else {
+            imgElement.src = './icons/default.png'
+        }
 
         const label = document.createElement('p');
         label.textContent = webLink.name
