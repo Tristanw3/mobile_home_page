@@ -1,18 +1,22 @@
 const pagesData = {
     home: [
         {
+            name: 'google',
             link: "https://www.google.com/", 
             icon: "./icons/google-128.png"
         },
         {
+            name: 'youtube',
             link: "https://www.youtube.com/", 
             icon: "./icons/youtube-144.png"
         },
         {
+            name: 'ozbargain',
             link: "https://www.ozbargain.com.au/", 
             icon: "./icons/ozbargain-128.png"
         },
         {
+            name: 'financial review',
             link: "https://www.afr.com/", 
             icon: "./icons/afr.png"
         },
@@ -160,6 +164,7 @@ function main() {
  
     if(page === 'home') {
         const searchDiv = document.createElement('div');
+        searchDiv.className = 'searchContainer';
         const searchInput = document.createElement('input');
         const searchButton = document.createElement('button');
         searchButton.textContent = 'view';
@@ -173,18 +178,28 @@ function main() {
         searchDiv.append(searchInput);
         searchDiv.append(searchButton);
         bodyElement.append(searchDiv);
-    
     }
 
     for (let index = 0; index < webLinks.length; index++) {
         const webLink = webLinks[index];
+
+        const cardDiv = document.createElement('div');
+        cardDiv.className = 'cardContainer';
+
         const aElement = document.createElement('a');
         aElement.href = webLink['link'];
             
         const imgElement = document.createElement('img');
         imgElement.src = webLink['icon'];
+
+        const label = document.createElement('p');
+        label.textContent = webLink.name
+
         aElement.append(imgElement);
-        bodyElement.append(aElement); 
+        cardDiv.append(aElement);
+        cardDiv.append(label);
+
+        bodyElement.append(cardDiv); 
     }
     
 };
