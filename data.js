@@ -65,15 +65,14 @@ const pagesData = {
             icon: "./icons/the-economist.png"
         },
         {
-            link: "./rates.html", 
+            link: "./index.html?page=rates", 
             icon: "./icons/folder.png"
         },
         {
-            link: "./pcparts.html", 
+            link: "./index.html?page=pcParts", 
             icon: "./icons/folder.png"
         }
     ],
-
     rates: [
         {
             name: 'Back',
@@ -146,10 +145,20 @@ const pagesData = {
 }
 
 function main() {
+
+    const urlParams = new URLSearchParams(window.location.search);
+
+    var page;
+    if (urlParams.has('page')) {
+        page = urlParams.get('page');
+    } else {
+        page = 'home'
+    }
+    const webLinks = pagesData[page];
+
     const bodyElement = document.getElementsByTagName('body')[0];
-    const webLinks = pagesData[document.title];
  
-    if(document.title === 'home') {
+    if(page === 'home') {
         const searchDiv = document.createElement('div');
         const searchInput = document.createElement('input');
         const searchButton = document.createElement('button');
