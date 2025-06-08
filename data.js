@@ -32,7 +32,8 @@ const pagesData = {
         },
         {
             name: 'cba loan calc',
-            link: 'https://www.commbank.com.au/digital/home-buying/calculator/home-loan-repayments'
+            link: 'https://www.commbank.com.au/digital/home-buying/calculator/home-loan-repayments',
+            icon: './icons/cba.ico'
         },
         {
             name: 'i work for nsw',
@@ -101,11 +102,19 @@ const pagesData = {
         },
         {
             name: 'hltv.org',
-            link: 'https://www.hltv.org/'
+            link: 'https://www.hltv.org/',
+            icon: './icons/hltv.png'
         },
         {
             name: 'cs liquipedia',
-            link: 'https://liquipedia.net/counterstrike/Main_Page'
+            link: 'https://liquipedia.net/counterstrike/Main_Page',
+            icon: './icons/cs_liquipedia.png'
+        },
+        {
+            name: 'github',
+            link: 'https://github.com/',
+            icon: './icons/github.png'
+
         }
     ],
     rates: [
