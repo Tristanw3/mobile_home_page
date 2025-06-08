@@ -168,7 +168,7 @@ function main() {
             aElement.href = webLink['link'];
             
             const imgElement = document.createElement('img');
-            imgElement.src = webLink['icon']
+            imgElement.src = webLink['icon'];
             aElement.append(imgElement);
             bodyElement.append(aElement)    
         }
