@@ -93,6 +93,14 @@ const pagesData = {
             name: 'pc parts',
             link: "./index.html?page=pcParts", 
             icon: "./icons/folder.png"
+        },
+        {
+            name: 'hltv.org',
+            link: 'https://www.hltv.org/'
+        },
+        {
+            name: 'cs liquipedia',
+            link: 'https://liquipedia.net/counterstrike/Main_Page'
         }
     ],
     rates: [
