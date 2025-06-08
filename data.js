@@ -95,6 +95,11 @@ const pagesData = {
             icon: "./icons/folder.png"
         },
         {
+            name: 'gifs',
+            link: "./index.html?page=gifs", 
+            icon: "./icons/folder.png"
+        },
+        {
             name: 'hltv.org',
             link: 'https://www.hltv.org/'
         },
@@ -174,6 +179,21 @@ const pagesData = {
             name: "pc case gear",
             link: "https://www.pccasegear.com/",
             icon: "./icons/pccg.png"
+        }
+    ],
+    gifs: [
+                {
+            name: 'back',
+            link: "javascript:history.back()", 
+            icon: "./icons/back.png"
+        },
+        {
+            name: 'business',
+            link: 'https://tenor.com/view/we%27re-in-business-saving-private-ryan-ww2-gif-5154402278486427452'
+        },
+        {
+            name: 'bait',
+            link: 'https://www.reactiongifs.com/r/tbt.gif'
         }
     ]
 }
