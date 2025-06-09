@@ -68,7 +68,7 @@ const pagesData = {
         {
             name: 'camel3',
             link: "https://au.camelcamelcamel.com/", 
-            icon: "https://assets.camelcamelcamel.com/live-assets/camelcamelcamel-logo-2018-583259dd2c1880ff44d801e313ca1d885d2ea345690072a457c5af98b5ca513f.png"
+            icon: "./icons/camel.jpg"
         },
         {
             name: 'itnews',
@@ -259,6 +259,21 @@ const pagesData = {
             name: 'amazon',
             link: 'https://www.amazon.com.au/',
             icon: './icons/amazon.png'
+        }, 
+        {
+            name: 'coles',
+            link: 'https://www.coles.com.au/',
+            icon: './icons/coles.png'
+        },
+        {
+            name: 'woolworths',
+            link: 'https://www.woolworths.com.au/',
+            icon: './icons/woolworths.jpg'
+        },
+        {
+            name: 'big w',
+            link: 'https://www.bigw.com.au/',
+            icon: './icons/bigw.png'
         }
     ],
     cinema: [
