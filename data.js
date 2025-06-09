@@ -33,7 +33,7 @@ const pagesData = {
         {
             name: 'cba loan calc',
             link: 'https://www.commbank.com.au/digital/home-buying/calculator/home-loan-repayments',
-            icon: './icons/cba.ico'
+            icon: './icons/cba.jpg'
         },
         {
             name: 'i work for nsw',
@@ -63,7 +63,7 @@ const pagesData = {
         {
             name: 'umart',
             link: "https://www.umart.com.au/", 
-            icon: "https://www.umart.com.au/images/umart-logo-500x500.png"
+            icon: "./icons/umart.png"
         },
         {
             name: 'camel3',
@@ -101,6 +101,16 @@ const pagesData = {
             icon: "./icons/folder.png"
         },
         {
+            name: 'shops',
+            link: "./index.html?page=shops", 
+            icon: "./icons/folder.png"
+        },
+        {
+            name: 'cinema',
+            link: "./index.html?page=cinema", 
+            icon: "./icons/folder.png"
+        },
+        {
             name: 'hltv.org',
             link: 'https://www.hltv.org/',
             icon: './icons/hltv.png'
@@ -115,6 +125,10 @@ const pagesData = {
             link: 'https://github.com/',
             icon: './icons/github.png'
 
+        },
+        {
+            name: 'synthwave',
+            link: 'https://www.youtube.com/watch?v=4xDzrJKXOOY'
         }
     ],
     rates: [
@@ -182,7 +196,7 @@ const pagesData = {
         {
             name: "mwave",
             link: "https://www.mwave.com.au/",
-            icon: "./icons/mwave.ico"
+            icon: "./icons/mwave.png"
         }, 
         {
             name: "pc case gear",
@@ -191,7 +205,7 @@ const pagesData = {
         }
     ],
     gifs: [
-                {
+        {
             name: 'back',
             link: "javascript:history.back()", 
             icon: "./icons/back.png"
@@ -203,6 +217,40 @@ const pagesData = {
         {
             name: 'bait',
             link: 'https://www.reactiongifs.com/r/tbt.gif'
+        }
+    ],
+    shops: [
+        {
+            name: 'back',
+            link: "javascript:history.back()", 
+            icon: "./icons/back.png"
+        },
+        {
+            name: 'ikea',
+            link: 'https://www.ikea.com/au/en/',
+            icon: './icons/ikea.jpg'
+        }
+    ],
+    cinema: [
+        {
+            name: 'back',
+            link: "javascript:history.back()", 
+            icon: "./icons/back.png"
+        },
+        {
+            name: 'reading',
+            link: 'https://readingcinemas.com.au/movies/now-showing',
+            icon: './icons/reading.png'
+        },
+        {
+            name: 'hoyts',
+            link: 'https://www.hoyts.com.au/',
+            icon: './icons/hoyts.webp'
+        },
+        {
+            name: 'event',
+            link: 'https://www.eventcinemas.com.au/',
+            icon: './icons/event.png'
         }
     ]
 }
