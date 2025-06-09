@@ -53,7 +53,7 @@ const pagesData = {
         {
             name: 'strata',
             link: "https://my.smata.com/login", 
-            icon: "https://static.wixstatic.com/media/c4412c_d2f39fc981a54810a2f5e5a7d8b91211~mv2.png/v1/fill/w_169,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202020-08-06%20at%201_29_43%20pm.png"
+            icon: "./icons/strata.jpg"
         },
         {
             name: 'jbhifi',
@@ -129,6 +129,11 @@ const pagesData = {
         {
             name: 'synthwave',
             link: 'https://www.youtube.com/watch?v=4xDzrJKXOOY'
+        },
+        {
+            name: 'polymarket',
+            link: 'https://polymarket.com/',
+            icon: './icons/polymarket.png'
         }
     ],
     rates: [
@@ -158,14 +163,34 @@ const pagesData = {
             icon: "./icons/abs.png"
         },
         {
+            name: 'gdp quaterley',
+            link: 'https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release',
+            icon: './icons/abs.png'
+        },
+        {
+            name: 'retail trade monthly',
+            link: 'https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia/latest-release',
+            icon: './icons/abs.png'
+        },
+        {
             name: 'asx rate tracker',
             link: "https://www.asx.com.au/markets/trade-our-derivatives-market/futures-market/rba-rate-tracker.html", 
-            icon: "./icons/asx.png"
+            icon: "./icons/asx.jpg"
+        },
+        {
+            name: 'rba',
+            link: 'https://www.rba.gov.au/',
+            icon: './icons/rba-152.png'
         },
         {
             name: 'rba meetings',
             link: "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
             icon: "./icons/rba-152.png"
+        },
+        {
+            name: 'interest rates historical',
+            link: 'https://tradingeconomics.com/australia/interest-rate',
+            icon: './icons/trading.png'
         }
     ],
     pcParts: [
@@ -229,6 +254,11 @@ const pagesData = {
             name: 'ikea',
             link: 'https://www.ikea.com/au/en/',
             icon: './icons/ikea.jpg'
+        },
+        {
+            name: 'amazon',
+            link: 'https://www.amazon.com.au/',
+            icon: './icons/amazon.png'
         }
     ],
     cinema: [
