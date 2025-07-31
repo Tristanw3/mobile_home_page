@@ -23,7 +23,7 @@ const pagesData = {
         {
             name: 'smh',
             link: "https://www.smh.com.au/", 
-            icon: "https://www.smh.com.au/favicons/smh.ico"
+            icon: "./icons/smh.png"
         },
         {
             name: 'pay calc',
