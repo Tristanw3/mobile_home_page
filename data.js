@@ -48,7 +48,7 @@ const pagesData = {
         {
             name: 'abc',
             link: "https://www.abc.net.au/news", 
-            icon: "https://www.abc.net.au/news-assets/favicon-32x32.png"
+            icon: "./icons/abc_news.png"
         },
         {
             name: 'strata',
