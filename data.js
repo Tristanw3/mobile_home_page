@@ -23,7 +23,7 @@ const pagesData = {
         {
             name: 'smh',
             link: "https://www.smh.com.au/", 
-            icon: "https://www.smh.com.au/favicons/smh.ico"
+            icon: "./icons/smh.png"
         },
         {
             name: 'fin times',
@@ -53,7 +53,7 @@ const pagesData = {
         {
             name: 'abc',
             link: "https://www.abc.net.au/news", 
-            icon: "https://www.abc.net.au/news-assets/favicon-32x32.png"
+            icon: "./icons/abc_news.png"
         },
         {
             name: 'strata',
