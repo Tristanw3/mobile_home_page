@@ -26,6 +26,11 @@ const pagesData = {
             icon: "https://www.smh.com.au/favicons/smh.ico"
         },
         {
+            name: 'fin times',
+            link: 'https://www.ft.com/',
+            icon: './icons/ft_times.jpg'
+        },
+        {
             name: 'pay calc',
             link: "https://paycalculator.com.au/", 
             icon: "https://paycalculator.com.au/favicon.ico"
