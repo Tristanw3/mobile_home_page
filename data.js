@@ -31,6 +31,11 @@ const pagesData = {
             icon: './icons/ft_times.jpg'
         },
         {
+            name: 'bloomberg',
+            link: 'https://www.bloomberg.com/',
+            icon: './icons/bloomberg.png'
+        },
+        {
             name: 'pay calc',
             link: "https://paycalculator.com.au/", 
             icon: "https://paycalculator.com.au/favicon.ico"
