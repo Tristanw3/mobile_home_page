@@ -205,7 +205,8 @@ const pagesData = {
         },
         {
             name: 'pc part picker',
-            link: 'https://au.pcpartpicker.com/list/'
+            link: 'https://au.pcpartpicker.com/list/',
+            icon: './icons/pc_part_picker.png'
         },
         {
             name: "umart",
@@ -216,6 +217,11 @@ const pagesData = {
             name: "scorptec",
             link: "https://www.scorptec.com.au/",
             icon: "./icons/scorptec.png"
+        },
+        {
+            name: "centrecom",
+            link: "https://www.centrecom.com.au/",
+            icon: "./icons/centrecom.png"
         },
         {
             name: "ple",
