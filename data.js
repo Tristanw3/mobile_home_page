@@ -232,7 +232,12 @@ const pagesData = {
             name: "ple",
             link: "https://www.ple.com.au/",
             icon: "./icons/ple.jpg"
-        }, 
+        },
+        {
+            name: 'computer alliance',
+            link: 'https://www.computeralliance.com.au/',
+            icon: './icons/computer_alliance.png'
+        },
         {
             name: "mwave",
             link: "https://www.mwave.com.au/",
