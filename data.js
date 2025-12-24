@@ -252,6 +252,11 @@ const pagesData = {
             name: 'austin computers',
             link: 'https://www.austin.net.au/',
             icon: '/icons/austin_computers.png'
+        },
+        {
+            name: 'tech buy',
+            link: 'https://www.techbuy.com.au/',
+            icon: './icons/tech_buy.ico'
         }
     ],
     gifs: [
