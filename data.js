@@ -134,7 +134,6 @@ const pagesData = {
             name: 'github',
             link: 'https://github.com/',
             icon: './icons/github.png'
-
         },
         {
             name: 'synthwave',
