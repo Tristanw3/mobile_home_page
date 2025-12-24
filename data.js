@@ -152,13 +152,8 @@ const pagesData = {
             icon: "./icons/back.png"
         },
         {
-            name: 'cpi quaterley',
-            link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release", 
-            icon: "./icons/abs.png"
-        },
-        {
             name: 'cpi monthly',
-            link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/latest-release", 
+            link: "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release", 
             icon: "./icons/abs.png"
         },
         {
