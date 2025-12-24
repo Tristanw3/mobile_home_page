@@ -96,6 +96,11 @@ const pagesData = {
             icon: "./icons/the-economist.png"
         },
         {
+            name: 'the mandarin',
+            link: 'https://www.themandarin.com.au/',
+            icon: './icons/the_mandarin.webp'
+        },
+        {
             name: 'rates',
             link: "./index.html?page=rates", 
             icon: "./icons/folder.png"
@@ -237,6 +242,11 @@ const pagesData = {
             name: "pc case gear",
             link: "https://www.pccasegear.com/",
             icon: "./icons/pccg.png"
+        },
+        {
+            name: 'austin computers',
+            link: 'https://www.austin.net.au/',
+            icon: '/icons/austin_computers.png'
         }
     ],
     gifs: [
