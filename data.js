@@ -172,8 +172,8 @@ const pagesData = {
             icon: './icons/abs.png'
         },
         {
-            name: 'retail trade monthly',
-            link: 'https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia/latest-release',
+            name: 'household spend monthly',
+            link: 'https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/latest-release',
             icon: './icons/abs.png'
         },
         {
