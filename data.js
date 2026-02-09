@@ -330,6 +330,28 @@ const pagesData = {
     ]
 }
 
+function createSearchComponent(webLinkAddress){
+    const searchDiv = document.createElement('div');
+    searchDiv.className = 'searchContainer';
+    const searchInput = document.createElement('input');
+    const searchButton = document.createElement('button');
+    searchButton.textContent = 'view';
+    
+    searchButton.addEventListener('click', function(event) {
+        const input = document.getElementsByTagName('input')[0];
+        const bypass = webLinkAddress;
+        window.location.href = bypass + input.value;
+        alert(window.location.href)
+    });
+
+    
+
+    searchDiv.append(searchInput);
+    searchDiv.append(searchButton);
+
+    return searchDiv
+}
+
 function main() {
 
     const urlParams = new URLSearchParams(window.location.search);
@@ -345,21 +367,9 @@ function main() {
     const bodyElement = document.getElementsByTagName('body')[0];
  
     if(page === 'home') {
-        const searchDiv = document.createElement('div');
-        searchDiv.className = 'searchContainer';
-        const searchInput = document.createElement('input');
-        const searchButton = document.createElement('button');
-        searchButton.textContent = 'view';
-        
-        searchButton.addEventListener('click', function(event) {
-            const input = document.getElementsByTagName('input')[0];
-            const bypass = 'https://www.removepaywall.com/search?url=';
-            window.location.href = bypass + input.value;
-        });
-        
-        searchDiv.append(searchInput);
-        searchDiv.append(searchButton);
-        bodyElement.append(searchDiv);
+        const searchRemoveLink = 'https://www.removepaywall.com/search?url=';
+        const searchRemoveElement = createSearchComponent(searchRemoveLink)
+        bodyElement.append(searchRemoveElement);
     }
 
     for (let index = 0; index < webLinks.length; index++) {
