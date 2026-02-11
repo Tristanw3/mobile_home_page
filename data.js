@@ -341,7 +341,6 @@ function createSearchComponent(webLinkAddress){
         const input = document.getElementsByTagName('input')[0];
         const bypass = webLinkAddress;
         window.location.href = bypass + input.value;
-        alert(window.location.href)
     });
 
     
