@@ -48,7 +48,7 @@ const pagesData = {
         {
             name: 'i work for nsw',
             link: "https://iworkfor.nsw.gov.au/", 
-            icon: "https://iworkfor.nsw.gov.au/favicon.ico"
+            icon: "./icons/i-work-for-nsw.webp"
         },
         {
             name: 'paywall',
