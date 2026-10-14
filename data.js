@@ -38,7 +38,7 @@ const pagesData = {
         {
             name: 'pay calc',
             link: "https://paycalculator.com.au/", 
-            icon: "https://paycalculator.com.au/favicon.ico"
+            icon: './icons/pay_calc.ico'
         },
         {
             name: 'cba loan calc',
